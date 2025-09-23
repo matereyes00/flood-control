@@ -2,16 +2,15 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-import Layout from "./Components/Layout"; // Make sure this path is correct
+import Layout from "./Components/Layout"; 
 import FloodControlBase from "./FloodControlProject/FloodControlBase";
 
 import "./App.css";
 
-// Define all your routes using the modern data API
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout />, // The Layout component wraps all child routes
+    element: <Layout />, 
     children: [
       { path: "/flood-control-budget", element: <FloodControlBase /> },
     ],

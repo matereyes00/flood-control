@@ -7,7 +7,7 @@ export const nepoBabyItems = [
     },
     {
         name: "Full Cart of Groceries",
-        price: 5000,
+        price: 25000,
         description: "Engage in the gluttony while the working class of the Philippines starves.",
         image: "https://images.pexels.com/photos/375897/pexels-photo-375897.jpeg",
     },
@@ -24,14 +24,20 @@ export const nepoBabyItems = [
         image: "https://images.pexels.com/photos/32713615/pexels-photo-32713615.jpeg",
     },
     {
-        name: "Latest High-End Smartphone",
-        price: 100000,
-        description: "Get the latest iPhone (or whatever brand is trending) to call up your contact from the department you will steal from!",
-        image: "https://images.unsplash.com/photo-1616410011236-7a42121dd981?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Fine Dining",
+        price: 30000,
+        description: "15k for a bottle of fine wine? O girl u cray.",
+        image: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bHV4dXJ5JTIwZGlubmVyfGVufDB8fDB8fHww",
     },
     {
-        name: "Luxury Trip to Europe for Two",
-        price: 500000,
+        name: "iPhone 17 Pro Max, Deep Blue, 2 TB",
+        price: 146990,
+        description: "To contact your person from the department you will get kick-backs from",
+        image: "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-17-pro-storage-select-202509-6-9inch-deepblue?wid=5120&hei=2880&fmt=webp&qlt=90&.v=ai9heDl3NVJxWmxhWTF3WFFidmVHRkIvTXY5NjBUQVhVcnFORUt4SFI2RGh1eGVRQlFpVjlMM2F1eEh3UFZOKzRHMHhDbHp4dk05NTlqWi96dnFlcUE3b3pFWnhZZ2g0M0pRR0pEdHVSRUVtYkFqYmVJbENIK1gycDVvVjJtTEY3eVMzUWxuSS8yS1pDVGZNek5yK0lR&traceId=1",
+    },
+    {
+        name: "Luxury (1-2 weeks) Trip to Europe for One",
+        price: 5723000,
         description: "A luxury trip to Europe for two to see if you could open a bank account in Switzerland or something.",
         image: "https://images.pexels.com/photos/2082103/pexels-photo-2082103.jpeg",
     },
@@ -48,10 +54,10 @@ export const nepoBabyItems = [
         image: "https://images.pexels.com/photos/16690455/pexels-photo-16690455.jpeg",
     },
     {
-        name: "3-Bedroom Condo in Makati",
-        price: 7000000,
+        name: "3-Bedroom Condo in Urdaneta, Makati",
+        price: 175000000,
         description: "We all know you don't actually live here.",
-        image: "https://placehold.co/400x300/4b5563/ffffff?text=Condo",
+        image: "https://plus.unsplash.com/premium_photo-1661937866889-54f51406b021?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmljaCUyMGFwYXJ0bWVudHxlbnwwfHwwfHx8MA%3D%3D",
     },
     {
         name: "House & Lot in Metro Manila",
@@ -72,10 +78,16 @@ export const nepoBabyItems = [
         image: "https://images.pexels.com/photos/3764986/pexels-photo-3764986.jpeg"
     },
     {
-        name: "Private Jet",
-        price: 0,
+        name: "Private Jet (Rent, hourly)",
+        price: 784000 ,
         description: "Fly away before they place a travel ban on you.",
-        image: "https://placehold.co/400x300/1e293b/ffffff?text=Private Jet",
+        image: "https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJpdmF0ZSUyMGpldHxlbnwwfHwwfHx8MA%3D%3D",
+    },
+    {
+        name: "Private Jet (To Own)",
+        price: 5722499950,
+        description: "Fly away before they place a travel ban on you. (2)",
+        image: "https://images.unsplash.com/photo-1540962351504-03099e0a754b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJpdmF0ZSUyMGpldHxlbnwwfHwwfHx8MA%3D%3D",
     },
     { 
         name: "Lavish Office Christmas Party", 

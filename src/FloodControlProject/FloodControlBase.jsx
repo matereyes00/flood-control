@@ -93,19 +93,21 @@ const FloodControlBase = () => {
     return(
         <>
             <div className="bg-gray-700 min-h-screen text-white font-sans p-4 sm:p-8">
-                <header className="text-center mb-8 max-w-4xl mx-auto">
-                    <h1 className="text-4xl sm:text-5xl font-bold text-yellow-300">Hanggang saan aabot ang ₱100 Billion pesos mo?</h1>
+                <header className="text-center mb-8 max-w-9xl mx-auto">
+                    <h1 className="text-base sm:text-5xl font-bold text-yellow-300">Hanggang saan aabot ang ₱100 Billion pesos mo?</h1>
+                    <p className="text-lg text-gray-400 mt-6">Created by: <span className="font-bold text-xl">Matê</span></p>
                     <p className="text-lg text-gray-400 mt-2">
-                        This is the estimated amount of taxpayer money linked to recent flood control project scandals. Add items to your cart to see how much was allegedly spent. This project and layout is heavily inspired by @wreckzonee's "Spend 100 Billion Pesos" website. Check out his TikTok <a 
-						href='https://www.tiktok.com/@wreckzonee/video/7548848135553043719' 
-						target='_blank' 
-						rel="noopener noreferrer" 
-						className="text-blue-400 hover:underline" // Optional: add styling
-					>
+                        This is the estimated amount of taxpayer money linked to recent flood control project scandals. Add items to your cart to see how much was allegedly spent. The idea behind this project is so that the every day Filipino could grasp how much of the money was lost to luxury items. This project and layout is heavily inspired by @wreckzonee's "Spend 100 Billion Pesos" website. Check out his TikTok <a 
+                            href='https://www.tiktok.com/@wreckzonee/video/7548848135553043719' 
+                            target='_blank' 
+                            rel="noopener noreferrer" 
+                            className="text-blue-400 hover:underline" // Optional: add styling
+                        >
 						here
-					</a>.
+                        </a>.
                     </p>
                 </header>
+
                 <div className="m-3 flex content-start">
                      <button
                         onClick={handleToggle}
@@ -121,6 +123,14 @@ const FloodControlBase = () => {
                         {isNepoBaby ? taxItems : nepoItems }
                     </div>
                     <div className="lg:col-span-1 flex flex-col gap-8">
+                        <div className="bg-gray-800 rounded-lg p-5">
+                            <h1 className="text-yellow-300 font-bold sm:text:2xl text-3xl">Assumptions</h1>
+                            <ol className="text-left list-decimal list-inside space-y-2 mt-4">
+                                <li><span className="font-bold text-xl">Tax Payer Item Prices:</span> Read the different department plans (DOH, DOTr, DepEd) and got the rough estimates of a product/good per how a single person would consume it. These are rough estimates</li>
+                                <li><span className="font-bold text-xl">Stolen Tax Item Prices:</span> Googled the luxury item prices. If given a range, the highest value in the range was used. These are rough estimates</li>
+                                <li>Third list item</li>
+                            </ol>
+                        </div>
                         <NepoAnalysis 
                             spentAmount={spentAmount}
                             remainingBudget={remainingBudget}

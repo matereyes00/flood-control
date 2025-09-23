@@ -22,7 +22,7 @@ const NepoItem = ({ item, onBuy }) => {
             <div className="bg-gray-800 rounded-lg shadow-lg overflow-hidden flex flex-col justify-between transition-transform transform hover:scale-105">
                 <img src={image} alt={name} className="w-full h-40 object-cover" />
                 <div className="p-4 flex flex-col flex-grow">
-                    <h3 className="text-lg font-semibold text-yellow-300 flex-grow">{name}</h3>
+                    <h3 className="text-lg font-semibold text-yellow-300">{name}</h3>
                     <p className="text-sm text-white mt-3">{description}</p>
                     <p className="text-xl font-bold text-white mt-3">{formatCurrency(price)}</p>
                 </div>

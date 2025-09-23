@@ -1,7 +1,7 @@
 export const nepoBabyItems = [
     {
-        name: "1pc Jollibee Chickenjoy Meal",
-        price: 150,
+        name: "1pc Jollibee Chickenjoy Meal, with drink",
+        price: 116,
         description: "Don't forget who made you libre.",
         image: "https://images.pexels.com/photos/30378549/pexels-photo-30378549.jpeg",
     },

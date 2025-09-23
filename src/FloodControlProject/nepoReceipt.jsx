@@ -52,7 +52,7 @@ const Receipt = ({
                             <tbody>
                             {Object.values(cart).map(item => (
                                 <tr key={item.name}>
-                                    <td className="py-1">
+                                    <td className="py-1 text-left">
                                         {item.name}
                                         <br />
                                         <span className="pl-2 text-xs">x{item.quantity} @ {formatCurrency(item.price)}</span>

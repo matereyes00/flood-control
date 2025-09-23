@@ -18,8 +18,8 @@ export const nepoBabyItems = [
         image: "https://images.pexels.com/photos/3948025/pexels-photo-3948025.jpeg",
     },
     {
-        name: "PlayStation 5",
-        price: 30000,
+        name: "PlayStation 5, Disc Version",
+        price: 30790,
         description: "Play your way out of committing crime.",
         image: "https://images.pexels.com/photos/32713615/pexels-photo-32713615.jpeg",
     },

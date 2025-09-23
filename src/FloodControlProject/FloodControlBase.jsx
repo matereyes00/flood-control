@@ -4,6 +4,7 @@ import { equivalencyMilestones } from "../db/expenses";
 import Receipt from "./nepoReceipt";
 import NepoItem from "./nepoItem";
 import NepoAnalysis from "./nepoAnalysis";
+import ToggleSwitch from "../Components/ToggleSwitch";
 
 const FloodControlBase = () => {
     const totalBudget = 1000000000000; // 1.089 Trillion
@@ -112,14 +113,13 @@ const FloodControlBase = () => {
                     </p>
                 </header>
 
-                <div className="m-3 flex content-start">
-                     <button
-                        onClick={handleToggle}
-                        className={`px-4 py-2 rounded-lg font-semibold transition 
-                            ${isNepoBaby ? "bg-green-500 text-white" : "bg-gray-300 text-black"}`}
-                        >
-                        {isNepoBaby ? "Tax Payer" : "Nepo Baby"}
-                    </button>
+                  <div className="ml-3 mb-10 justify-center sm:justify-start">
+                    <ToggleSwitch 
+                        isOn={isNepoBaby}
+                        handleToggle={handleToggle}
+                        offLabel="Nepo Baby"
+                        onLabel="Tax Payer"
+                    />
                 </div>
                
                 <div className="max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8">

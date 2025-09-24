@@ -7,9 +7,13 @@ const Layout = () => {
 
   return (
     <div className="App">
-        <main>
+        <main className='flex flex-row xl:p-10 gap-8'>
+          <div className='sticky top-96 self-start text-center'>
             <FloatingCase />
+          </div>
+          <div className='flex-1'>
             <Outlet />
+          </div>
         </main>
         <Footer />
     </div>

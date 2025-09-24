@@ -6,13 +6,16 @@ import Layout from "./Components/Layout";
 import FloodControlBase from "./FloodControlProject/FloodControlBase";
 
 import "./App.css";
+import DataAnalysisPage from "./FloodControlProject/FloodDataAnalysis";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />, 
     children: [
+      { index: true, element: <FloodControlBase /> },
       { path: "/flood-control-budget", element: <FloodControlBase /> },
+      { path: "/flood-control-analysis", element: <DataAnalysisPage /> },
     ],
   },
 ], {

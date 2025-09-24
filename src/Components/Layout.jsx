@@ -1,16 +1,17 @@
 import { Outlet, useLocation } from 'react-router-dom';
+import Footer from './Footer';
+import FloatingCase from './Menu/FloatingCase';
 
 const Layout = () => {
   const location = useLocation();
 
-  // This will be true for any path that starts with '/mini-projects/'
-  const isMiniProjectPage = location.pathname.startsWith('/mini-projects/');
-
   return (
     <div className="App">
         <main>
+            <FloatingCase />
             <Outlet />
         </main>
+        <Footer />
     </div>
   );
 };

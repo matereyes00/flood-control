@@ -1,4 +1,4 @@
-const FloatingTab = ({title, isActive}) => {
+const Tab = ({title, isActive}) => {
 
     return(
         <>
@@ -12,4 +12,4 @@ const FloatingTab = ({title, isActive}) => {
     )
 }
 
-export default FloatingTab;
+export default Tab;

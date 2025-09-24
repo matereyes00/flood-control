@@ -1,16 +1,13 @@
-import { Outlet, useLocation } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import Footer from './Footer';
-import FloatingCase from './Menu/FloatingCase';
+import Menu  from './Menu/Menu';
 
 const Layout = () => {
-  const location = useLocation();
 
   return (
     <div className="App">
-        <main className='flex flex-row xl:p-10 gap-8'>
-          <div className='sticky top-96 self-start text-center'>
-            <FloatingCase />
-          </div>
+        <main className='lg:flex lg:flex-row lg:p-10 gap-8'>
+          <Menu />
           <div className='flex-1'>
             <Outlet />
           </div>

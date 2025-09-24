@@ -5,6 +5,8 @@ import Receipt from "./nepoReceipt";
 import NepoItem from "./nepoItem";
 import NepoAnalysis from "./nepoAnalysis";
 import ToggleSwitch from "../Components/ToggleSwitch";
+import PageHeader from "../Components/PageHeader";
+import { FloodControlBudgetHeader } from "../utils/Headers";
 
 const FloodControlBase = () => {
     const totalBudget = 1000000000000; // 1.089 Trillion
@@ -98,21 +100,7 @@ const FloodControlBase = () => {
     return(
         <>
             <div className="bg-gray-700 min-h-screen text-white font-sans p-4 sm:p-8">
-                {/* HEADER */}
-                <header className="text-center mb-8 max-w-6xl mx-auto">
-                    <h1 className="text-base sm:text-lg md:text-3xl lg:text-4xl font-bold text-yellow-300">Hanggang saan aabot ang ₱100 Billion pesos mo?</h1>
-                    <p className="text-lg text-gray-400 mt-6">Created by: <span className="font-bold text-xl">Matê</span></p>
-                    <p className="text-gray-400 mt-2 sm:text-md md:text-md lg:text-lg">
-                        This is the estimated amount of taxpayer money linked to recent flood control project scandals. Add items to your cart to see how much was allegedly spent. The idea behind this project is so that the every day Filipino could grasp how much of the money was lost to luxury items. This was made to purely just <span className="underline">spread <span className="font-bold">awareness</span></span> and to <span className="underline">hold the Philippine government <span className="font-bold">accountable</span></span>, because the Filipino people are being scammed (frfr). This is heavily inspired by @wreckzonee's "Spend 100 Billion Pesos" website. Check out his TikTok <a 
-                            href='https://www.tiktok.com/@wreckzonee/video/7548848135553043719' 
-                            target='_blank' 
-                            rel="noopener noreferrer" 
-                            className="text-blue-400 hover:underline" 
-                        >
-						here
-                        </a>.
-                    </p>
-                </header>
+                <PageHeader content={<FloodControlBudgetHeader />}/>
 
                 <div className="ml-3 mb-10 justify-center sm:justify-start">
                     <ToggleSwitch 

@@ -4,9 +4,9 @@ import {
 } from "react-router-dom";
 import Layout from "./Components/Layout"; 
 import FloodControlBase from "./FloodControlProject/FloodControlBase";
-
 import "./App.css";
 import DataAnalysisPage from "./FloodControlProject/FloodDataAnalysis";
+import FloodControlTimelinePage from "./FloodControlProject/FloodTimeline"
 
 const router = createBrowserRouter([
   {
@@ -16,6 +16,7 @@ const router = createBrowserRouter([
       { index: true, element: <FloodControlBase /> },
       { path: "/flood-control-budget", element: <FloodControlBase /> },
       { path: "/flood-control-analysis", element: <DataAnalysisPage /> },
+      { path: "/flood-control-timeline", element: <FloodControlTimelinePage /> },
     ],
   },
 ], {

@@ -1,22 +1,23 @@
 
 import ToggleSwitch from "../Components/ToggleSwitch";
 import PageHeader from "../Components/PageHeader";
-import { FloodControlBudgetHeader } from "../utils/Headers";
+import { FloodControlBudgetHeader } from "../Components/Headers";
 import FloodControlBudgetAnalysis from "./FloodControlBudget/FloodControlBudgetSideBar";
-import { useFloodControl } from "../hooks/FloodControlBudgetHook";
+import { useFloodControlBudget } from "../hooks/FloodControlBudgetHook";
 
 const FloodControlBase = () => {
     const {
         isNepoBaby, handleToggle,
         itemsToDisplay,
         ...analysisProps
-    } = useFloodControl();
+    } = useFloodControlBudget();
+
+    const header = FloodControlBudgetHeader();
 
     return(
         <>
             <div className="bg-gray-700 min-h-screen text-white font-sans p-4 sm:p-8">
-                <PageHeader content={<FloodControlBudgetHeader />}/>
-
+                <PageHeader title={header.title} creator={header.creator} description={header.description} />
                 <div className="ml-3 mb-10 justify-center sm:justify-start">
                     <ToggleSwitch 
                         isOn={isNepoBaby}

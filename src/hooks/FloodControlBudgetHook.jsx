@@ -3,7 +3,7 @@ import { nepoBabyItems, taxPayerItems } from '../db/floodControlItems';
 import { equivalencyMilestones } from '../db/expenses';
 import NepoItem from '../FloodControlProject/FloodControlBudget/nepoItem';
 
-export const useFloodControl = () => {
+export const useFloodControlBudget = () => {
     const totalBudget = 1000000000000;
 
     // --- STATE MANAGEMENT ---

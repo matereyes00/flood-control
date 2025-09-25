@@ -1,61 +1,113 @@
 export const floodControlTimeline = [
     {
         date: "July 28, 2025",
-        eventTitle: "SONA",
-        eventDescription: "President Bong Bong Marcos gave his 4th State of the Nation Address (SONA). A notable topic covered was corruption, touching specifically on anomolous flood control projects in the DPWH.",
+        eventTitle: "We interrupt this program...",
+        eventHeading: "PBBM's SONA",
+        eventDescription: "President Bong Bong Marcos (PBBM) gave his 4th State of the Nation Address (SONA). A notable topic covered was corruption, touching specifically on anomolous flood control projects in the DPWH.",
         gif: "https://media.tenor.com/gHNw0BpVBssAAAA1/emperor-palpatine-star-wars.webp"
     },
     {
+        date: "August 11, 2025",
+        eventTitle: "A look into the numbers",
+        eventHeading: "PBBM's press conference on the flood control anomolies",
+        eventDescription: "PBBM's revealed that 20% of the Php 545 billion budget for flood control projects or Php 100 billion to major projects (mostly) to the same 15 contractors in almost all regions nationwide.",
+        gif: "https://media.tenor.com/MLXUsDHZn5YAAAAM/theoffice-michael.gif"
+    },
+    {
+        date: "August 19, 2025",
+        eventTitle: "Do you hear what I hear?",
+        eventHeading: "Senate Blue Ribbon Committee's first investigation",
+        eventDescription: "Senator Marcoleta leads the first senate blue ribbon investigation into the anomolous flood control projects. Only 8 out of the invited 15 contractors did not attend.",
+        gif: "https://media.tenor.com/mWFelILO6L8AAAAM/spongebob-squarepants-spongebob.gif"
+    },
+     {
+        date: "August 19, 2025",
+        eventTitle: "Selective memory",
+        eventHeading: "Manny Bonoan admits to ghost projects",
+        eventDescription: "Public Works Secretary Manny Bonoan admitted there are ghost projects.",
+        gif: "https://media.tenor.com/08FdzGdlZugAAAAM/john-travolta1874-1874north-wich.gif"
+    },
+    {
         date: "August 20, 2025",
-        eventTitle: "Lacson's privilege speech",
+        eventTitle: "",
+        eventHeading: "Lacson's privilege speech",
         eventDescription: (<p>In his privilege speech <span className="italic">'Flooded Gates of Corruption'</span> <span class="font-bold" >Senator Ping Lacson</span> exposed an alleged scheme where DPWH officials create unfinished ghost projects in various barangays to systematically divide the public funds for personal gain."</p>),
         gif: "https://media.tenor.com/3u_jgS5vymwAAAA1/obama-micdrop.webp"
     },
     {
         date: "August 31, 2025",
-        eventTitle: "A New DPWH Secretary",
+        eventTitle: "A New Hope",
+        eventHeading: "New DPWH Secretary",
         eventDescription: "Former DPWH secretary Manuel Bonoan steps down and is replaced by former DOTr secreatary, Vince Dizon.",
         gif: "https://media.tenor.com/K2Ua902co-kAAAA1/football-dynamo.webp"
     },
     {
         date: "September 1, 2025",
-        eventTitle: "Sara Discaya testifies",
-        eventDescription: "",
-        gif: ""
+        eventTitle: "She is here, your honor",
+        eventHeading: "Sara Discaya testifies",
+        eventDescription: "Sarah Discaya is questioned by the Senate Blue Ribbon Committee. She reveals owning 28 luxury cars and 9 construction forms, alongside Curlee Discaya.",
+        gif: "https://media.tenor.com/Dm2DUhwtJHoAAAAM/guilty-dog.gif"
+    },
+    {
+        date: "September 1, 2025",
+        eventTitle: "DPWH Officials *have to* Resign",
+        eventHeading: "Mandatory resignation for DPWH officials",
+        eventDescription: "DPWH Officials tender their courtesy resignations ordered by newly appointed DPWH secretary, Vince Dizon",
+        gif: "https://media.tenor.com/xD3otQt9Q2MAAAAM/spongebob-i-quit.gif"
+    },
+    {
+        date: "September 2, 2025",
+        eventTitle: "One last question",
+        eventHeading: "House TriComm Begins Investigation",
+        eventDescription: "The House of Representatives begin their investigation into the flood control project anomalies.",
+        gif: "https://media.tenor.com/9ppNC0UBHbUAAAAM/charlie-day-its-always-sunny-in-philadelphia.gif"
+    },
+    {
+        date: "September 3, 2025",
+        eventTitle: "Hey, that's my car!",
+        eventHeading: "Discayas Luxury Cars: Seized",
+        eventDescription: "Sarah Discaya is questioned by the Senate Blue Ribbon Committee. She reveals owning 28 luxury cars and 9 construction forms, alongside Curlee Discaya.",
+        gif: "https://media.tenor.com/12HDZ_nKRiEAAAAM/simpsons-hyundai.gif"
     },
     {
         date: "September 4, 2025",
-        eventTitle: "The begining of protests",
-        eventDescription: "Protests by various groups begin outside the Discaya owned St. Gerard Contstruction.",
+        eventTitle: "Do you hear the people sing?",
+        eventHeading: "Groups of protesters demand justice in front of Discaya owned building.",
+        eventDescription: "Protests by various groups begin outside the Discaya owned St. Gerard Contstruction lot in Pasig.",
         gif: "https://media.tenor.com/AEZMmpSwgzcAAAA1/boo.webp"
     },
     {
         date: "September 8, 2025",
-        eventTitle: "Senate Leadership Shuffled",
+        eventTitle: "Shuffle the Deck",
+        eventHeading: "Senate Leadership Change",
         eventDescription: "A new majority and minority has emerged as Senate President Chiz Escudero steps down. Senator Vic Sotto takes the mantle while Senator Migs Zubiri leads the majority (15) and Senator Alan Cayetano leads the minority (9).",
         gif: "https://media.tenor.com/93MTG5vSngwAAAA1/oh-yeah-parks-and-recreation.webp"
     },
     {
         date: "September 9, 2025",
-        eventTitle: "Senators involved",
+        eventTitle: "Senator Shoutout",
+        eventHeading: "Two senators exposed over the misuse of public funds",
         eventDescription: "Brice Hernandez name drops Senators Jinggoy Estrada and Joel Villanueva for accepting kick-backs in the flood control anomolies. Piles of cash and screenshots of Viber conversations are shared to the Congress.",
         gif: "https://media.tenor.com/bqC8l_MFdGoAAAA1/shocker-community.webp"
     },
     {
         date: "September 12, 2025",
-        eventTitle: "A series of protests",
+        eventTitle: "Singing the song of angry men",
+        eventHeading: "Student and Religion - led protests",
         eventDescription: "Black Friday protests are held across Metro Manila. Members of the protests showed their discontent with the misuse of public funds and demand for more transaparency & accountability from government leaders and public servants.",
         gif: "https://media.tenor.com/Tw0ejEcOnsYAAAA1/legallyblonde-objection.webp"
     },
     {
         date: "September 21, 2025",
-        eventTitle: "Baha sa Luneta & Trillion Peso March: EDSA",
+        eventTitle: "It is the music of a people who will not be slaves again",
+        eventHeading: "Baha sa Luneta & Trillion Peso March",
         eventDescription: "Different Student, Religious and Civil organizations protested nationwide. Protesters gathered together at Luneta and EDSA to commemorate the anniversary of Martial Law and speak out against corruption on the misuse of public funds.",
-        gif: "https://media.tenor.com/DeiH3pWBh7YAAAA1/les-miserables-les-miserable.webp"
+        gif: "https://media.tenor.com/MJU8jKJnFFsAAAAM/esmeralda-hontd.gif"
     },
     {
         date: "September 25 2025",
-        eventTitle: "More Senator involvement",
+        eventTitle: "You thought we wouldn't notice",
+        eventHeading: "Four more senators caught involved in flood control anomalies",
         eventDescription: "More senators are name dropped in the Senate Blue Ribbon Committee hearing by former DPWH undersecretary, Roberto Bernardo. Former senators Bong Revilla, Abby Binay, Sonny Angara and current senator Chiz Escudero are allegedly part of the anomolous flood control projects ",
         gif: "https://media.tenor.com/oMgwQhnz-0gAAAA1/fire.webp"
     },

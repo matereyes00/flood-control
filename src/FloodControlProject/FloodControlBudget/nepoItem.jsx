@@ -1,4 +1,4 @@
-import formatCurrency from "../utils/CurrencyFormatter";
+import formatCurrency from "../../utils/CurrencyFormatter"
 import { useState } from 'react'; // 1. Import useState
 
 const NepoItem = ({ item, onBuy }) => {

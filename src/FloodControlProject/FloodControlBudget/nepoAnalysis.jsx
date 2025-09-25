@@ -1,5 +1,4 @@
-import formatCurrency from "../utils/CurrencyFormatter";
-
+import formatCurrency from "../../utils/CurrencyFormatter"
 
 const NepoAnalysis = ({
     spentAmount,

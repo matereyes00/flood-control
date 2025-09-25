@@ -1,4 +1,4 @@
-import formatCurrency from "../utils/CurrencyFormatter";
+import formatCurrency from "../../utils/CurrencyFormatter"
 
 // Add props for customization: title, totalLabel, emptyMessage, themeColor, etc.
 const Receipt = ({ 

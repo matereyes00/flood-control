@@ -22,7 +22,7 @@ export const FloodControlTimelineHeader = () => {
     const creator = "Matê"
     const description = (
         <>
-            Timeline of events.
+            Timeline of events of the Flood Control Scandal. This is an abbreviated version; it does not have all events that transpired. This is based mostly on this articles found online and FTTM's posts regarding the Flood Control Scandal.
         </>
     )
 

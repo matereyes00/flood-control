@@ -18,13 +18,13 @@ const FloodControlTimeLineBackBone = () => {
     const displayTimeline = (
         <>
             {/* This will ONLY be visible on xl screens (xl) and up */}
-            <div className="hidden xl:block">
-                <TableView groupedEvents={groupedEvents} />
+            <div className="hidden lg:block">
+                {tableView}
             </div>
 
             {/* This will be hidden on xlarge screens (xl) and up, showing only on smaller screens */}
             <div className="lg:hidden">
-                <FlexView groupedEvents={groupedEvents} />
+                {flexView}
             </div>
         </>
     )

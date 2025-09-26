@@ -4,7 +4,7 @@ const TableView = ({groupedEvents}) => {
     // STYLING
     const fullTableStyle = "w-full table-fixed mx-auto border-collapse divide-solid"
     const monthYearHeadingTD = "text-3xl p-4 text-center"
-    const monthYearHeadingTR = "xl:sticky top-0" 
+    const monthYearHeadingTR = "lg:sticky top-0 text-yellow-500 font-bold" 
     const leftEventStyle = "border-r-4 border-t-2 border-white m-48 [border-top-style:dashed] w-36"
     const rightEventStyle = "border-l-4 border-t-2 border-white m-48 [border-top-style:dashed] w-36"
 
@@ -45,7 +45,6 @@ const TableView = ({groupedEvents}) => {
 
     return (
         <>
-            <div className="hidden xl:block">
             <table className={fullTableStyle}>
                 <thead>
                     <tr>
@@ -70,8 +69,6 @@ const TableView = ({groupedEvents}) => {
                         )})
                     }
             </table>
-
-        </div>
         </>
     )
 }

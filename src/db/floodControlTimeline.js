@@ -64,7 +64,7 @@ export const floodControlTimeline = [
     },
     {
         date: "September 2, 2025",
-        eventTitle: "Wait, you spent how much?",
+        eventTitle: "Wait, the bill is how much?",
         eventHeading: "Php 100 Billion lost",
         eventDescription: "According to Finance Secretary Ralph Recto, the Philippine economy lost Php 100 Billion to ghost flood control projects from 2023 to 2025.",
         gif: "https://media.tenor.com/ppVsPf-t3dAAAAAM/seinfeld-check.gif"
@@ -80,7 +80,7 @@ export const floodControlTimeline = [
         date: "September 4, 2025",
         eventTitle: "Do you hear the people sing?",
         eventHeading: "Groups of protesters seen in front of Discaya property",
-        eventDescription: "Protests by various groups begin outside the Discaya owned St. Gerard Contstruction lot in Pasig.",
+        eventDescription: "Protests by various groups begin outside the Discaya owned St. Gerard Contstruction lot in Pasig City.",
         gif: "https://media.tenor.com/AEZMmpSwgzcAAAA1/boo.webp"
     },
     {

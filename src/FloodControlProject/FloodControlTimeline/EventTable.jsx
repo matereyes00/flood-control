@@ -30,7 +30,7 @@ const EventTable = ({idx, event}) => {
                     </div>
                 </div>
                 <div className={imgContainerStyle}>
-                    <img src={gif} alt={eventTitle} className="scale-[1.3] align-center p-8"/>
+                    <img src={gif} alt={eventTitle} className="w-[70%] align-center p-8"/>
                 </div>
                 <p className={descriptionStyle}>{eventDescription}</p>
             </div>

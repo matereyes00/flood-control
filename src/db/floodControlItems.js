@@ -152,7 +152,54 @@ export const taxPayerItems = [
         price: 1000000,
         description: "This is a locally-funded project based on the Construction,Rehabilitation and Improvement of Other Transportation Infrastructure - Railways for the National Capital Region (NCR). Retrieved from the Office of the Secretary of DOTr section of the Department of Budget and Management (DBM).",
         image: "https://plus.unsplash.com/premium_photo-1679691282472-657de0a00d54?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJhaW4lMjBzdGF0aW9ufGVufDB8fDB8fHww"
-    }
+    },
+    {
+        name: "DSWD: Supplementary Feeding Program (SFP) for children)",
+        price: 3700000000,
+        description: "In the 2023 National Expenditure Program (NEP), this budget was alloted for around 1.8 million children enrolled in child development centers managed by local government units and supervised neighborhood play will be provided hot meals. Moreover, around 157,968 malnourished youngsters will benefit from the milk feeding program.",
+        image: "https://plus.unsplash.com/premium_photo-1663040337189-fa6906bf2bc4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmVlZGluZyUyMHByb2dyYW18ZW58MHx8MHx8fDA%3D",
+        source: "https://www.dbm.gov.ph/index.php/management-2/421-dbm-earmarks-p3-7-billion-for-dswds-feeding-program-of-1-8-million-kids"
+    },
+    {
+        name: "DA: Agri-Puhunan at Pantawid",
+        price: 183400000,
+        description: "Through the Agri-Puhunan at Pantawid program, qualified rice farmers will receive up to ₱60,000 in support, combining credit for farm inputs and a monthly allowance. Initially launched Kalinga, Apayao and Nueva Ecija (3 provinces). This is a core component of the DA's National Rice Program aimed at boosting local production.",
+        image: "https://images.unsplash.com/photo-1610760722225-7cd1135ca2da?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cmljZSUyMGZhcm18ZW58MHx8MHx8fDA%3D",
+        source: "https://www.da.gov.ph/president-marcos-launches-agri-puhunan-at-pantawid-in-mindanao/"
+    },
+    {
+        name: "DENR: Scaling up of coastal and marine ecosystems ",
+        price: 265000000,
+        description: "Funds the seedling production, planting, and maintenance of one hectare of forest land under the National Greening Program. This helps combat climate change, prevent soil erosion, and protect biodiversity.",
+        image: "https://plus.unsplash.com/premium_photo-1668424272087-58bcf4d4cc8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29hc3RhbHxlbnwwfHwwfHx8MA%3D%3D",
+        source: "https://newsinfo.inquirer.net/1970563/denr-eyes-to-reforest-3-million-hectares-of-land-by-2028"
+    },
+    {
+        name: "DENR: Clean Air Program",
+        price: 408000000,
+        description: (
+            <>
+                <p>The <a href="https://r7.denr.gov.ph/priority-program/clean-air-program/#:~:text=FOR%20CLEAN%20AIR%2C%20OUR%20PRIORITY,implementation%20of%20Clean%20Air%20Act." target='_blank' 
+                rel="noopener noreferrer" 
+                className="text-blue-400 hover:underline" >program</a> is to come up with a comprehensive national program to achieve and maintain air quality that meets the National Air Quality Guidelines for Criteria Pollutants throughout the Philippines, while minimizing the possible associated negative impacts on the country’s economy.</p>
+            </>
+        ),
+        image: "https://images.unsplash.com/photo-1547963802-25f153e14080?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y2xlYW4lMjBhaXJ8ZW58MHx8MHx8fDA%3D",
+        source: "https://newsinfo.inquirer.net/1970563/denr-eyes-to-reforest-3-million-hectares-of-land-by-2028"
+    },
+    {
+        name: "DENR: Clean Water Program",
+        price: 374000000,
+        description: (
+            <>
+                <p>The <a href="https://r7.denr.gov.ph/priority-program/clean-water-program/" target='_blank' 
+                rel="noopener noreferrer" 
+                className="text-blue-400 hover:underline" >program</a> is implemented based on the established environmental laws specifically RA 9275, the Philippine Clean Water Act (CWA) that provides for a comprehensive strategy to address the degradation of our waterbodies.</p>
+            </>
+        ),
+        image: "https://images.unsplash.com/photo-1574482620811-1aa16ffe3c82?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xlYW4lMjB3YXRlcnxlbnwwfHwwfHx8MA%3D%3D",
+        source: "https://newsinfo.inquirer.net/1970563/denr-eyes-to-reforest-3-million-hectares-of-land-by-2028"
+    },
 ];
 
 {/*
@@ -162,7 +209,6 @@ export const taxPayerItems = [
     educ - Basic Education Development Plan
 
     stuff we can add:
-    - feeding programs
     - scholarships for students
     - flood control budget [real]
 */} 

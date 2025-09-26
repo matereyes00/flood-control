@@ -6,7 +6,7 @@ const Layout = () => {
 
   return (
     <div className="App">
-        <main className='lg:flex lg:flex-row lg:p-10 gap-8'>
+        <main className='lg:flex lg:flex-row gap-4'>
           <Menu />
           <div className='flex-1'>
             <Outlet />

@@ -15,9 +15,10 @@ const router = createBrowserRouter([
     element: <Layout />, 
     children: [
       { index: true, element: <Landing /> },
-      { path: "/flood-control-budget", element: <FloodControlBudget /> },
-      { path: "/flood-control-analysis", element: <DataAnalysisPage /> },
-      { path: "/flood-control-timeline", element: <FloodControlTimelinePage /> },
+      { path: "flood-control", element: <Landing /> },
+      { path: "flood-control/flood-control-budget", element: <FloodControlBudget /> },
+      { path: "flood-control/flood-control-analysis", element: <DataAnalysisPage /> },
+      { path: "flood-control/flood-control-timeline", element: <FloodControlTimelinePage /> },
     ],
   },
 ], {

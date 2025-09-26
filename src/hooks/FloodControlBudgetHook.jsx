@@ -11,6 +11,7 @@ export const useFloodControlBudget = () => {
     const [taxpayerCart, setTaxpayerCart] = useState({});
     const [isNepoBaby, setIsNepoBaby] = useState(false);
     const [equivalencyMessages, setEquivalencyMessages] = useState([]);
+    const [confettiProps, setConfettiProps] = useState(null);
 
     // --- DERIVED STATE & CALCULATIONS ---
     const totalStolen = Object.values(nepoCart).reduce((acc, item) => acc + item.price * item.quantity, 0);
@@ -35,6 +36,29 @@ export const useFloodControlBudget = () => {
     const handleToggle = () => setIsNepoBaby((prev) => !prev);
 
     const handleBuyItem = (item, quantity) => {
+
+        const  nepoEmojis = ['💸', '💎', '🐊', '🪳', '👑'];
+        const taxpayerEmojis = ['🇵🇭', '❤️', '👍', '😊', '✅'];
+
+        // Determine which emojis to use
+        const emojis = isNepoBaby ? taxpayerEmojis : nepoEmojis;
+        const currentScrollY = window.scrollY;
+        
+        // Trigger the confetti!
+        setConfettiProps({
+            numberOfPieces: 400,
+            gravity: 0.1,
+            emojis: emojis,
+            emojiSize: 100,
+            top: currentScrollY
+        });
+
+        // Hide confetti after 4 seconds
+        setTimeout(() => {
+            setConfettiProps(null);
+        }, 4000);
+
+
         if (remainingBudget < item.price * quantity) {
             alert("You don't have enough money left to buy this!");
             return;
@@ -60,7 +84,7 @@ export const useFloodControlBudget = () => {
     // Return everything the component needs to render and function
     return {
         isNepoBaby, handleToggle,
-        nepoCart, taxpayerCart,
+        nepoCart, taxpayerCart, confettiProps,
         totalStolen, totalSpentInTaxpayerCart,
         spentAmount, remainingBudget,
         equivalencyMessages,

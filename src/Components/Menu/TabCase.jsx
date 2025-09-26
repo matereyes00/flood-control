@@ -6,28 +6,28 @@ const TabCase = () => {
     return(
         <>
             <div className="flex flex-col gap-6">
-                <Link to="/flood-control">
+                <Link to="/">
                     <Tab 
                         title={"About"}
-                        isActive={location.pathname === '/flood-control'}/>
+                        isActive={location.pathname === '/'}/>
                 </Link>
                 {/* FLOOD CONTROL BUDGET */}
-                <Link to="/flood-control/flood-control-budget">
+                <Link to="budget">
                     <Tab 
                         title={"Ghost Projects Budget"}
-                        isActive={location.pathname === '/flood-control/flood-control-budget'}/>
+                        isActive={location.pathname === 'budget'}/>
                 </Link>
                 {/* MISSING FUNDS DATA */}
-                <Link to="/flood-control/flood-control-analysis">
+                <Link to="analysis">
                     <Tab 
                         title={"Missing Funds Data"}
-                        isActive={location.pathname === '/flood-control/flood-control-analysis'}/>
+                        isActive={location.pathname === 'analysis'}/>
                 </Link>
                 {/* TIMELINE */}
-                <Link to="/flood-control/flood-control-timeline">
+                <Link to="timeline">
                     <Tab 
                         title={"Scandal Timeline"}
-                        isActive={location.pathname === '/flood-control/flood-control-timeline'}/>
+                        isActive={location.pathname === 'timeline'}/>
                 </Link>
             </div>
         </>

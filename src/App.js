@@ -15,15 +15,14 @@ const router = createBrowserRouter([
     element: <Layout />, 
     children: [
       { index: true, element: <Landing /> },
-      { path: "flood-control", element: <Landing /> },
-      { path: "flood-control/flood-control-budget", element: <FloodControlBudget /> },
-      { path: "flood-control/flood-control-analysis", element: <DataAnalysisPage /> },
-      { path: "flood-control/flood-control-timeline", element: <FloodControlTimelinePage /> },
+      { path: "budget", element: <FloodControlBudget /> },
+      { path: "analysis", element: <DataAnalysisPage /> },
+      { path: "timeline", element: <FloodControlTimelinePage /> },
     ],
   },
 ], {
     // Add the basename here for deployment (e.g., on GitHub Pages)
-    basename: "/",
+    basename: "/flood-control", 
 });
 
 function App() {

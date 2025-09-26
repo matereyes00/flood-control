@@ -3,4 +3,5 @@
 node_modules
 *.bat
 server/
+build/
 .env

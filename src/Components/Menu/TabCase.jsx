@@ -5,7 +5,6 @@ import { Link, useLocation } from 'react-router-dom';
 
 const TabCase = () => {
     const location = useLocation();
-    // On the budget page, location.pathname will equal "/flood-control/budget"
     
     return(
         <>

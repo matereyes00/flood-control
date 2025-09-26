@@ -15,7 +15,7 @@ const Landing = () => {
             {/* <UnderConstruction /> */}
             <div className={pageContainer}>
                 <div className={pageHeaderStyle}>
-                    <h1 className="text-4xl m-4">Welcome</h1>
+                    <h1 className="text-4xl m-4">Philippine Flood Control Scandal Info(web)graphic</h1>
                     <p className="w-1/2 text-center mx-auto">This acts as an interactive infographic type of website where users could stay updated and understand how big the impact of the misuse of public funds are in their daily lives.</p>
                 </div>
 

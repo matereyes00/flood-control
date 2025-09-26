@@ -11,7 +11,7 @@ const EventFlex = ({ idx, event }) => {
         <div className={eventContainer}>
             <div className={eventHeader}>
                 <h1 className="text-yellow-500 font-bold text-3xl">{eventTitle}</h1>
-                <div className="w-full h-0.5 bg-yellow-500 opacity-50"></div>
+                <div className="w-[10%] h-0.5 bg-yellow-500 opacity-50 mx-auto mt-3"></div>
                 <h1 className={eventHeadingStyle}>
                     <a href={source}
                         target='_blank' 

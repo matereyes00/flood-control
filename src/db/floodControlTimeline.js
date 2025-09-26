@@ -19,7 +19,7 @@ export const floodControlTimeline = [
         date: "August 19, 2025",
         eventTitle: "Do you hear what I hear?",
         eventHeading: "Senate Blue Ribbon Committee's first investigation",
-        eventDescription: "Senator Marcoleta leads the first senate blue ribbon investigation into the anomolous flood control projects. Only 8 out of the invited 15 contractors did not attend.",
+        eventDescription: "Senator Marcoleta leads the first senate blue ribbon investigation into the anomolous flood control projects. 8 out of the invited 15 contractors did not attend.",
         gif: "https://media.tenor.com/mWFelILO6L8AAAAM/spongebob-squarepants-spongebob.gif",
         source: "https://www.abs-cbn.com/news/nation/2025/9/11/a-timeline-of-the-philippine-flood-control-scandal-0600",
     },

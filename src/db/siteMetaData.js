@@ -18,6 +18,6 @@ export const siteMetaData = [
     // },
     {
         title: "Scandal Timeline",
-        description: "This page talks about the events that transpired since President Bongbong Marcos's fourth State of the Nation Address. Although timeline does not cover every event, it touches on significant plot-twists that revealed the underlying corruption.",
+        description: "This page talks about the events that transpired since President Bongbong Marcos's fourth State of the Nation Address. Although timeline does not cover every event, it gives an overview about significant plot-twists that revealed the corruption of public individuals and their assets.",
     },
 ]

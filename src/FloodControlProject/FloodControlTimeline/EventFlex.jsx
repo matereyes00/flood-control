@@ -4,12 +4,14 @@ const EventFlex = ({ idx, event }) => {
     // STYLING
     const eventContainer = "bg-gray-800 shadow-2xl m-10 p-10 rounded-lg";
     const eventHeader = "flex flex-col content-around mb-10";
-    const eventHeadingStyle = "text-gray-400 font-semibold italic text-lg my-4"
+    const eventHeadingStyle = "relative inline-block text-gray-400 font-semibold italic text-lg my-4"
+    
     
     return (
         <div className={eventContainer}>
             <div className={eventHeader}>
                 <h1 className="text-yellow-500 font-bold text-3xl">{eventTitle}</h1>
+                <div className="w-full h-0.5 bg-yellow-500 opacity-50"></div>
                 <h1 className={eventHeadingStyle}>
                     <a href={source}
                         target='_blank' 

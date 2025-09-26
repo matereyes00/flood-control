@@ -22,11 +22,11 @@ const TabCase = () => {
                         isActive={location.pathname === '/budget'}/>
                 </Link>
                 {/* MISSING FUNDS DATA */}
-                <Link to="/analysis">
+                {/* <Link to="/analysis">
                     <Tab 
                         title={"Missing Funds Data"}
                         isActive={location.pathname === '/analysis'}/>
-                </Link>
+                </Link> */}
                 {/* TIMELINE */}
                 <Link to="/timeline">
                     <Tab 

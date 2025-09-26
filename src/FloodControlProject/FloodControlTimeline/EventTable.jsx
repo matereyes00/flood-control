@@ -1,5 +1,5 @@
 const EventTable = ({idx, event}) => {
-    const {date, eventTitle, eventHeading, eventDescription, gif} = event
+    const {date, eventTitle, eventHeading, eventDescription, gif, source} = event
 
 
     // styling
@@ -17,7 +17,16 @@ const EventTable = ({idx, event}) => {
                     <h1 className={eventDateStyle}>{date}</h1>
                     <div className="basis-96 m-0">
                          <h1 className={eventTitleStyle}>{eventTitle}</h1>
-                        <h1 className={eventHeadingStyle}>{eventHeading}</h1>
+                        <h1 className={eventHeadingStyle}>
+                            <a 
+                                href={source}
+                                target='_blank' 
+                                rel="noopener noreferrer" 
+                                className="text-white-300 hover:underline"
+                            >
+                                {eventHeading}
+                            </a>
+                        </h1>
                     </div>
                 </div>
                 <div className={imgContainerStyle}>

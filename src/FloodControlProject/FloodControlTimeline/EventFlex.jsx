@@ -1,5 +1,5 @@
 const EventFlex = ({ idx, event }) => {
-    const { date, eventTitle, eventHeading, eventDescription, gif } = event;
+    const { date, eventTitle, eventHeading, eventDescription, gif, source } = event;
     
     // STYLING
     const eventContainer = "bg-gray-800 shadow-2xl m-10 p-10 rounded-lg";
@@ -10,7 +10,14 @@ const EventFlex = ({ idx, event }) => {
         <div className={eventContainer}>
             <div className={eventHeader}>
                 <h1 className="text-yellow-500 font-bold text-3xl">{eventTitle}</h1>
-                <h1 className={eventHeadingStyle}>{eventHeading}</h1>
+                <h1 className={eventHeadingStyle}>
+                    <a href={source}
+                        target='_blank' 
+                        rel="noopener noreferrer" 
+                        className="text-white-300 hover:underline">
+                            {eventHeading}
+                        </a>
+                </h1>
                 <h1 className="italic">{date}</h1>
             </div>
 

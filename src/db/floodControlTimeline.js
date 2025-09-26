@@ -10,7 +10,7 @@ export const floodControlTimeline = [
         date: "August 11, 2025",
         eventTitle: "A look into the numbers",
         eventHeading: "PBBM's press conference on the flood control anomolies",
-        eventDescription: "PBBM's revealed that 20% of the Php 545 billion budget for flood control projects or Php 100 billion to major projects (mostly) to the same 15 contractors in almost all regions nationwide.",
+        eventDescription: "PBBM's presentation revealed that 20% of the Php 545 billion budget for flood control projects or Php 100 billion to major projects (mostly) to the same 15 contractors in almost all regions nationwide.",
         gif: "https://media.tenor.com/MLXUsDHZn5YAAAAM/theoffice-michael.gif"
     },
     {
@@ -29,7 +29,7 @@ export const floodControlTimeline = [
     },
     {
         date: "August 20, 2025",
-        eventTitle: "",
+        eventTitle: "Isn't it nice to have Washington on your side?",
         eventHeading: "Lacson's privilege speech",
         eventDescription: (<p>In his privilege speech <span className="italic">'Flooded Gates of Corruption'</span> <span class="font-bold" >Senator Ping Lacson</span> exposed an alleged scheme where DPWH officials create unfinished ghost projects in various barangays to systematically divide the public funds for personal gain."</p>),
         gif: "https://media.tenor.com/3u_jgS5vymwAAAA1/obama-micdrop.webp"
@@ -57,10 +57,17 @@ export const floodControlTimeline = [
     },
     {
         date: "September 2, 2025",
-        eventTitle: "One last question",
-        eventHeading: "House TriComm Begins Investigation",
+        eventTitle: "May I interject, your honor",
+        eventHeading: "House TriComm Begins Probe",
         eventDescription: "The House of Representatives begin their investigation into the flood control project anomalies.",
         gif: "https://media.tenor.com/9ppNC0UBHbUAAAAM/charlie-day-its-always-sunny-in-philadelphia.gif"
+    },
+    {
+        date: "September 2, 2025",
+        eventTitle: "Wait, you spent how much?",
+        eventHeading: "Php 100 Billion lost",
+        eventDescription: "According to Finance Secretary Ralph Recto, the Philippine economy lost Php 100 Billion to ghost flood control projects from 2023 to 2025.",
+        gif: "https://media.tenor.com/ppVsPf-t3dAAAAAM/seinfeld-check.gif"
     },
     {
         date: "September 3, 2025",
@@ -72,7 +79,7 @@ export const floodControlTimeline = [
     {
         date: "September 4, 2025",
         eventTitle: "Do you hear the people sing?",
-        eventHeading: "Groups of protesters demand justice in front of Discaya owned building.",
+        eventHeading: "Groups of protesters seen in front of Discaya property",
         eventDescription: "Protests by various groups begin outside the Discaya owned St. Gerard Contstruction lot in Pasig.",
         gif: "https://media.tenor.com/AEZMmpSwgzcAAAA1/boo.webp"
     },
@@ -86,14 +93,21 @@ export const floodControlTimeline = [
     {
         date: "September 9, 2025",
         eventTitle: "Senator Shoutout",
-        eventHeading: "Two senators exposed over the misuse of public funds",
-        eventDescription: "Brice Hernandez name drops Senators Jinggoy Estrada and Joel Villanueva for accepting kick-backs in the flood control anomolies. Piles of cash and screenshots of Viber conversations are shared to the Congress.",
+        eventHeading: "2 senators exposed over the misuse of public funds",
+        eventDescription: "Brice Hernandez name drops Senators Jinggoy Estrada and Joel Villanueva for accepting kick-backs in the flood control anomolies. The senators deny the allegations. Evidence shown are selfies with the personalities and viber conversation screenshots.",
         gif: "https://media.tenor.com/bqC8l_MFdGoAAAA1/shocker-community.webp"
+    },
+    {
+        date: "September 9, 2025",
+        eventTitle: "Pool table for... (more than) two (piles of cash)",
+        eventHeading: "Photos of piles of cash passed as evidence",
+        eventDescription: "During the House of Representatives's investigation, images of piles of cash (lots enough to fill the top of a pool table) are shown as evidence of corruption within the DPWH.",
+        gif: "https://media.tenor.com/UuSdXsHDD2wAAAAM/tom-and-jerry-tom.gif"
     },
     {
         date: "September 12, 2025",
         eventTitle: "Singing the song of angry men",
-        eventHeading: "Student and Religion - led protests",
+        eventHeading: "Student and Religion - led protests nationwide",
         eventDescription: "Black Friday protests are held across Metro Manila. Members of the protests showed their discontent with the misuse of public funds and demand for more transaparency & accountability from government leaders and public servants.",
         gif: "https://media.tenor.com/Tw0ejEcOnsYAAAA1/legallyblonde-objection.webp"
     },

@@ -1,7 +1,6 @@
 import {
     createBrowserRouter,
     RouterProvider,
-    createHashRouter,
 } from "react-router-dom";
 import Layout from "./Components/Layout"; 
 import FloodControlBudget from "./FloodControlProject/FloodControlBudget";
@@ -10,7 +9,7 @@ import DataAnalysisPage from "./FloodControlProject/FloodControlAnalysis/FloodDa
 import FloodControlTimelinePage from "./FloodControlProject/FloodTimeline"
 import Landing from "./FloodControlProject/Landing";
 
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />, 
@@ -23,6 +22,7 @@ const router = createHashRouter([
   },
 ], {
     // Add the basename here for deployment (e.g., on GitHub Pages)
+    basename: "flood-control",
 });
 
 function App() {

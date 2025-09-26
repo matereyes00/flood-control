@@ -1,4 +1,4 @@
-import { UnderConstruction } from "../utils/Placeholder";
+import { UnderConstruction } from "../../utils/Placeholder";
 
 const DataAnalysisPage = () => {
   return (

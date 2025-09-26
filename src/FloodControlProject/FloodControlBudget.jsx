@@ -5,7 +5,7 @@ import { FloodControlBudgetHeader } from "../Components/Headers";
 import FloodControlBudgetAnalysis from "./FloodControlBudget/FloodControlBudgetSideBar";
 import { useFloodControlBudget } from "../hooks/FloodControlBudgetHook";
 
-const FloodControlBase = () => {
+const FloodControlBudget = () => {
     const {
         isNepoBaby, handleToggle,
         itemsToDisplay,
@@ -38,4 +38,4 @@ const FloodControlBase = () => {
     )
 }
 
-export default FloodControlBase;
+export default FloodControlBudget;

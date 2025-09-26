@@ -6,6 +6,11 @@ const TabCase = () => {
     return(
         <>
             <div className="flex flex-col gap-6">
+                <Link to="/">
+                    <Tab 
+                        title={"About"}
+                        isActive={location.pathname === '/'}/>
+                </Link>
                 {/* FLOOD CONTROL BUDGET */}
                 <Link to="/flood-control-budget">
                     <Tab 

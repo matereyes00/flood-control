@@ -3,18 +3,19 @@ import {
     RouterProvider,
 } from "react-router-dom";
 import Layout from "./Components/Layout"; 
-import FloodControlBase from "./FloodControlProject/FloodControlBudget";
+import FloodControlBudget from "./FloodControlProject/FloodControlBudget";
 import "./App.css";
-import DataAnalysisPage from "./FloodControlProject/FloodDataAnalysis";
+import DataAnalysisPage from "./FloodControlProject/FloodControlAnalysis/FloodDataAnalysis";
 import FloodControlTimelinePage from "./FloodControlProject/FloodTimeline"
+import Landing from "./FloodControlProject/Landing";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />, 
     children: [
-      { index: true, element: <FloodControlBase /> },
-      { path: "/flood-control-budget", element: <FloodControlBase /> },
+      { index: true, element: <Landing /> },
+      { path: "/flood-control-budget", element: <FloodControlBudget /> },
       { path: "/flood-control-analysis", element: <DataAnalysisPage /> },
       { path: "/flood-control-timeline", element: <FloodControlTimelinePage /> },
     ],

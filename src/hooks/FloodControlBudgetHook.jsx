@@ -4,7 +4,7 @@ import { equivalencyMilestones } from '../db/expenses';
 import NepoItem from '../FloodControlProject/FloodControlBudget/nepoItem';
 
 export const useFloodControlBudget = () => {
-    const totalBudget = 100000000000;
+    const totalBudget = 1000000000000;
 
     // --- STATE MANAGEMENT ---
     const [nepoCart, setNepoCart] = useState({});

@@ -8,7 +8,7 @@ const EventTable = ({idx, event}) => {
     const eventTitleStyle = idx % 2 === 0 ? "text-left text-3xl font-bold mt-4 text-yellow-300" : "text-right text-3xl font-bold mt-4 text-yellow-300"
     const eventHeadingStyle = idx % 2 === 0 ? "text-left text-xl mt-2 italic mr-0 text-gray-400" : "text-right text-xl mt-2 italic mr-0 text-gray-400"
     const imgContainerStyle = idx % 2 === 0 ? "flex justify-start mt-6" : "flex justify-end mt-6"
-    const descriptionStyle = idx % 2 === 0 ? "w-full mx-auto mt-8 text-left text-lg pr-48" : "w-full mx-auto mt-8 text-right text-lg pl-48"
+    const descriptionStyle = idx % 2 === 0 ? "w-full mx-auto mt-2 text-left text-lg pr-48" : "w-full mx-auto mt-2 text-right text-lg pl-48"
     
     return (
         <>

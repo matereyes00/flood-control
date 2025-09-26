@@ -5,8 +5,8 @@ const TableView = ({groupedEvents}) => {
     const fullTableStyle = "w-full table-fixed mx-auto border-collapse divide-solid"
     const monthYearHeadingTD = "text-3xl p-4 text-center"
     const monthYearHeadingTR = "lg:sticky top-0 text-yellow-500 font-bold" 
-    const leftEventStyle = "border-r-4 border-t-2 border-white m-48 [border-top-style:dashed] w-36"
-    const rightEventStyle = "border-l-4 border-t-2 border-white m-48 [border-top-style:dashed] w-36"
+    const leftEventStyle = "border-r-4 border-white m-48  w-36 p-4 bg-gray-800/40 rounded-b-xl"
+    const rightEventStyle = "border-l-4 border-white m-48 [border-top-style:dashed] w-36 p-4 bg-gray-800/40 rounded-b-xl"
 
     // elements 
     const monthHeader = (monthYear) => {

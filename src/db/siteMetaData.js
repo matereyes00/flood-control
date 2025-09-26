@@ -2,7 +2,7 @@ export const siteMetaData = [
     {
         title: "Ghost Project Budget",
         description: (<p>
-            This page allows a user to simulate spending Php 100 Billion on different luxury items and government projects. A user can check their stats such as the items they spent for, how much they've spent, percentage of money stolen or gone to the Filipino people and, if the money were stolen, where the stolen funds could have gone to. This is heavily inspired by @wreckzonee's "Spend 100 Billion Pesos" website. Check out his TikTok <a 
+            This page allows a user to simulate spending Php 1 Trillion on different luxury items and government projects. A user can check their stats such as the items they spent for, how much they've spent, percentage of money stolen or gone to the Filipino people and, if the money were stolen, where the stolen funds could have gone to. This is heavily inspired by @wreckzonee's "Spend 100 Billion Pesos" website. Check out his TikTok <a 
                 href='https://www.tiktok.com/@wreckzonee/video/7548848135553043719' 
                 target='_blank' 
                 rel="noopener noreferrer" 

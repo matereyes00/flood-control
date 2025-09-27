@@ -207,6 +207,7 @@ export const taxPayerItems = [
 			"This is a foreign assisted project based on the Metro Manila Subway Project (MMSP) Phase I. Retrieved from the Office of the Secretary of DOTr section of the Department of Budget and Management (DBM).",
 		image:
 			"https://images.unsplash.com/uploads/1413387158190559d80f7/6108b580?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dHJhaW4lMjBzdGF0aW9ufGVufDB8fDB8fHww",
+		source: "https://www.dbm.gov.ph/wp-content/uploads/NEP2026/DOTr/A.pdf",
 	},
 	{
 		name: "DOTr: Transportation (Train Line - extension)",
@@ -215,6 +216,7 @@ export const taxPayerItems = [
 			"This is a foreign assisted project based on the Light Rail Transit (LRT) Line 1 Cavite Extension Project. Retrieved from the Office of the Secretary of DOTr section of the Department of Budget and Management (DBM).",
 		image:
 			"https://images.unsplash.com/photo-1495313196544-7d1adf4e628f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJhaW4lMjBzdGF0aW9ufGVufDB8fDB8fHww",
+		source: "https://www.dbm.gov.ph/wp-content/uploads/NEP2026/DOTr/A.pdf",
 	},
 	{
 		name: "DOTr: Transportation (Train Line - rehabilitation/reconstruction)",
@@ -223,6 +225,7 @@ export const taxPayerItems = [
 			"This is a locally-funded project based on the Construction,Rehabilitation and Improvement of Other Transportation Infrastructure - Railways for the National Capital Region (NCR). Retrieved from the Office of the Secretary of DOTr section of the Department of Budget and Management (DBM).",
 		image:
 			"https://plus.unsplash.com/premium_photo-1679691282472-657de0a00d54?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dHJhaW4lMjBzdGF0aW9ufGVufDB8fDB8fHww",
+		source: "https://www.dbm.gov.ph/wp-content/uploads/NEP2026/DOTr/A.pdf",
 	},
 	{
 		name: "DSWD: Supplementary Feeding Program (SFP) for children)",

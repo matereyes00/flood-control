@@ -130,7 +130,7 @@ export const floodControlTimeline = [
 		eventTitle: "Shuffle the Deck",
 		eventHeading: "Senate Leadership Change",
 		eventDescription:
-			"A new majority and minority has emerged as Senate President Chiz Escudero steps down. Senator Vic Sotto takes the mantle while Senator Migs Zubiri leads the majority (15) and Senator Alan Cayetano leads the minority (9).",
+			"A new majority and minority has emerged as Senate President Chiz Escudero steps down. Senator 'Tito' Sotto takes the mantle while Senator Migs Zubiri leads the majority (15) and Senator Alan Cayetano leads the minority (9).",
 		gif: "https://media.tenor.com/93MTG5vSngwAAAA1/oh-yeah-parks-and-recreation.webp",
 		source:
 			"https://www.abs-cbn.com/news/nation/2025/9/11/a-timeline-of-the-philippine-flood-control-scandal-0600",
@@ -224,7 +224,7 @@ export const floodControlTimeline = [
 		eventTitle: "Where in the world",
 		eventHeading: "Blue notice is issued to Cong. Zaldy Co",
 		eventDescription:
-			"The Department of Justice (DOJ) requests a blue notice for Congressman Zaldy Co from the International Police (INTERPOL)find his whereabouts. A Blue Notice is issued to a person when additional information is collected about their identity, location or activities in relation to a criminal investigation.",
+			"The Department of Justice (DOJ) requests a blue notice for Congressman Zaldy Co from the International Police (INTERPOL) to find his whereabouts. A Blue Notice is issued to a person when additional information is collected about their identity, location or activities in relation to a criminal investigation.",
 		gif: "https://media.tenor.com/RzVzOOUy8zEAAAAM/station-19-andy-herrera.gif",
 		source:
 			"https://www.rappler.com/philippines/interpol-blue-notice-request-zaldy-co",

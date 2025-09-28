@@ -1,36 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <!-- Start Single Page Apps for GitHub Pages -->
-    <script type="text/javascript">
-        (function(l) {
-            if (l.search[1] === '/' ) {
-                var decoded = l.search.slice(1).split('&').map(function(s) { 
-                return s.replace(/~and~/g, '&')
-                }).join('?');
-                window.history.replaceState(null, null,
-                    l.pathname.slice(0, -1) + decoded + l.hash
-                );
-            }
-            }(window.location))
-        </script>
-        <!-- End Single Page Apps for GitHub Pages -->
-        <title>TTPC Login</title>
-        <script type="text/javascript">
-        var pathSegmentsToKeep = 1;
+	<head>
+		<meta charset="utf-8" />
+		<!-- Start Single Page Apps for GitHub Pages -->
+		<script type="text/javascript">
+			(function (l) {
+				if (l.search[1] === "/") {
+					var decoded = l.search
+						.slice(1)
+						.split("&")
+						.map(function (s) {
+							return s.replace(/~and~/g, "&");
+						})
+						.join("?");
+					window.history.replaceState(
+						null,
+						null,
+						l.pathname.slice(0, -1) + decoded + l.hash
+					);
+				}
+			})(window.location);
+		</script>
+		<!-- End Single Page Apps for GitHub Pages -->
+		<title>TTPC Login</title>
+		<script>
+			// Get the current path (e.g., /about)
+			var path = window.location.pathname;
 
-        var l = window.location;
-        l.replace(
-            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-            l.hash
-        );
+			// Preserve any query parameters
+			var query = window.location.search;
 
-        </script>
-    </head>
-    <body>
-    </body>
+			// Replace the URL with a redirect to the root, appending the path as a hash
+			// Example: mydomain.com/about -> mydomain.com/#/about
+			window.location.replace("/#" + path + query);
+		</script>
+	</head>
+	<body></body>
 </html>

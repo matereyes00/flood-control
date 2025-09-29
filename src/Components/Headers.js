@@ -1,5 +1,11 @@
+import ConversionToolTip from "./ConversionToolTip";
+
 export const FloodControlBudgetHeader = () => {
-	const title = "Hanggang saan aabot ang ₱1 Trillion pesos mo?";
+	const title = (
+		<> 
+			<p>Hanggang saan aabot ang <ConversionToolTip amount={1000000000000}><p className="cursor-pointer">₱1 Trillion pesos</p></ConversionToolTip> mo?"</p>
+		</>
+	);
 	const creator = "Matê";
 	const description = (
 		<>

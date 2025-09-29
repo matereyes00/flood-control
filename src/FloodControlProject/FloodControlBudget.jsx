@@ -3,9 +3,10 @@ import ToggleSwitch from "../Components/ToggleSwitch";
 import PageHeader from "../Components/PageHeader";
 import { FloodControlBudgetHeader } from "../Components/Headers";
 import FloodControlBudgetAnalysis from "./FloodControlBudget/FloodControlBudgetSideBar";
-import { useFloodControlBudget } from "../hooks/FloodControlBudgetHook";
+import { useFloodControlBudget } from "../hooks/useFloodControlBudgetHook";
 import ReactConfetti from "react-confetti"; // 1. Import the component
 import { useWindowSize } from "react-use"; // 2. Import the hook for window size
+import ConversionToolTip from "../Components/ConversionToolTip";
 
 const drawEmoji = (ctx, emoji) => {
     ctx.font = '28px serif';
@@ -35,6 +36,7 @@ const FloodControlBudget = () => {
             )}
             <div className="bg-gray-700 min-h-screen text-white font-sans p-4 sm:p-8">
                 <PageHeader title={header.title} creator={header.creator} description={header.description} />
+                <ConversionToolTip amount={1000}/>
                 <div className="ml-3 mb-10 justify-center sm:justify-start">
                     <ToggleSwitch 
                         isOn={isNepoBaby}

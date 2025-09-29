@@ -5,3 +5,5 @@ node_modules
 server/
 build/
 .env
+# Local Netlify folder
+.netlify

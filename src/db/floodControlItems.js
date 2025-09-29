@@ -312,16 +312,3 @@ export const taxPayerItems = [
 			"https://newsinfo.inquirer.net/1970563/denr-eyes-to-reforest-3-million-hectares-of-land-by-2028",
 	},
 ];
-
-{
-	/*
-    sources
-    transpo - https://www.dbm.gov.ph/wp-content/uploads/NEP2026/DOTr/A.pdf  
-    health - Philippine Health Facility Development Plan 2020-2040
-    educ - Basic Education Development Plan
-
-    stuff we can add:
-    - scholarships for students
-    - flood control budget [real]
-*/
-}

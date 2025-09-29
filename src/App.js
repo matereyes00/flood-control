@@ -22,7 +22,7 @@ const router = createBrowserRouter([
   },
 ], {
     // Add the basename here for deployment (e.g., on GitHub Pages)
-    basename: "flood-control",
+    // basename: "flood-control",
 });
 
 function App() {
